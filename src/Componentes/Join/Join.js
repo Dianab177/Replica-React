@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Footer from '../Footer/Footer';
 
 function Join() {
   return (
-    <div>Join</div>
+    <div>
+      Join
+      <Footer />
+    </div>
   )
 }
 
