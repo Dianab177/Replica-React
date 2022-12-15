@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SoundWare from "./Componentes/SoundWave/SoundWave";
+import SoundWave from "./Componentes/SoundWave/SoundWave";
 import Join from "./Componentes/Join/Join";
 import Discovery from "./Componentes/Discovery/Discover";
 import Appbar from "./Componentes/Appbar";
@@ -18,7 +18,7 @@ function App() {
           </header>
           <main>
             <Routes>
-              <Route path="/" element={<SoundWare />} />
+              <Route path="/" element={<SoundWave />} />
               <Route path="join" element={<Join />} />
               <Route path="discovery" element={<Discovery />} />
             </Routes>
