@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 export default function Buttons() {
     const classes = useStyles();
   return (
-    <Stack direction="row" spacing={2}>
+    <Stack spacing={2}>
       <Button  variant="contained">
       <Link className={classes.link} to='/join'>
       <Typography className={classes.button} variant="p" component="div">
