@@ -6,24 +6,30 @@ import Join from "./Componentes/Join/Join";
 import Discovery from "./Componentes/Discovery/Discover";
 import Appbar from "./Componentes/Appbar";
 import { makeStyles } from "@mui/styles";
+import WindowShow from "./Componentes/WindowShow";
+import { ThemeProvider } from "@mui/material";
+import { theme } from "./MediaQuerys/Querys";
 
 function App() {
   const classes = useStyles();
   return (
     <>
       <Router>
-        <div className={classes.root}>
-          <header className="App-header">
-            <Appbar />
-          </header>
-          <main>
-            <Routes>
-              <Route path="/" element={<SoundWave />} />
-              <Route path="join" element={<Join />} />
-              <Route path="discovery" element={<Discovery />} />
-            </Routes>
-          </main>
-        </div>
+        <ThemeProvider theme={theme}>
+          <div className={classes.root}>
+            <header className="App-header">
+              <Appbar />
+            </header>
+            <main>
+              <WindowShow />
+              <Routes>
+                <Route path="/" element={<SoundWave />} />
+                <Route path="join" element={<Join />} />
+                <Route path="discovery" element={<Discovery />} />
+              </Routes>
+            </main>
+          </div>
+        </ThemeProvider>
       </Router>
     </>
   );

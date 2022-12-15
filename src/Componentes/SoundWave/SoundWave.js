@@ -26,7 +26,7 @@ function SoundWave() {
     </div>
   );
 }
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(({ theme }) => ({
   root: {
     marginTop: 30,
     display: "flex",
@@ -60,9 +60,6 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     fontSize: "0.6rem",
-  },
-  [theme.breakpoints.down("xs")]: {
-    backgroundImage: `url(${imgBanner})`,
   },
 }));
 
