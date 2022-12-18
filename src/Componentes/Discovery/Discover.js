@@ -35,7 +35,7 @@ root:{
   justifyContent:'center',
   alignItems: 'center',
   color:'white',
-  minHeight: '90vh',
+  minHeight: '79vh',
   fontFamily:'poppins',
 },
 containerText:{

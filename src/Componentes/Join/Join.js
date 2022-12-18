@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     color: "white",
-    minHeight: "90vh",
+    minHeight: "79vh",
     fontFamily: "poppins",
     backgroundImage: `url(${imgBanner2})`,
     backgroundPosition: "center",

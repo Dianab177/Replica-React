@@ -33,7 +33,7 @@ const useStyles = makeStyles(({ theme }) => ({
     alignItems: "center",
     justifyContent: "space-around",
     color: "white",
-    minHeight: "100vh",
+    minHeight: "82.3vh",
     backgroundImage: `url(${imgBanner})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
