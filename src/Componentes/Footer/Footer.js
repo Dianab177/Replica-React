@@ -28,7 +28,7 @@ export default function Footer() {
           </Link>
           </div>
           <div className={classes.toolbar}>
-          <Link className={classes.space} href="https://twitter.com/home">
+          <Link className={classes.space} href="https://twitter.com/">
           <IconButton aria-label="Twittter">
            <TwitterIcon  className={classes.icono}/>
            <Typography className={classes.icono} variant="h6" component="div">
