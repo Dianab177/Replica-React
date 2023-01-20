@@ -4,7 +4,9 @@ import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 import imgBanner from "../images/Group-banner.png";
 import Typography from "@mui/material/Typography";
-
+import Join from "../Join/Join";
+import Discover from "../Discovery/Discover";
+import Footer from "../Footer/Footer";
 
 function SoundWave() {
   const classes = useStyles();

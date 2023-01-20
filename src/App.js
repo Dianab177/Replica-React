@@ -6,8 +6,6 @@ import Join from "./Componentes/Join/Join";
 import Discovery from "./Componentes/Discovery/Discover";
 import Appbar from "./Componentes/Appbar";
 import { makeStyles } from "@mui/styles";
-import { ThemeProvider } from "@mui/material";
-import { theme } from "./MediaQuerys/Querys";
 import Footer from "./Componentes/Footer/Footer";
 
 function App() {
@@ -15,7 +13,7 @@ function App() {
   return (
     <>
       <Router>
-        <ThemeProvider theme={theme}>
+       
           <div className={classes.root}>
             <header className="App-header">
               <Appbar />
@@ -23,13 +21,12 @@ function App() {
             <main>
               <Routes>
                 <Route path="/" element={<SoundWave />} />
-                <Route path="join" element={<Join />} />
-                <Route path="discovery" element={<Discovery />} />
-                <Route path="footer" element={<Footer />} />
+                <Route path="join"  />
+                <Route path="discovery"  />
+                <Route path="footer"  />
               </Routes>
             </main>
           </div>
-        </ThemeProvider>
       </Router>
     </>
   );

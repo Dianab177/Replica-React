@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Footer/Footer";
 import { makeStyles } from "@mui/styles";
 import { Typography } from "@mui/material";
 import Button from "@mui/material/Button";
@@ -38,7 +37,6 @@ function Join() {
           </form>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

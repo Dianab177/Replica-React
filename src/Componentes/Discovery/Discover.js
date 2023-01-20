@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
 import { makeStyles } from '@mui/styles';
 import microphone from '../images/microphone.svg';
 import albums from '../images/albums.svg';
@@ -24,7 +23,6 @@ function Discover() {
         <img className={classes.imgCover} src={covers} alt='imagen covers'/>
       </div>
     </div>
-    <Footer />
     </>
   )
 }
